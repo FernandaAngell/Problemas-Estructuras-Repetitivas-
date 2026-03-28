@@ -12,6 +12,14 @@
 #- Cuántas personas están dispuestas a pagar más de 50 mil pesos
 #por el servicio de televisión.
 #- La edad de la persona
+#El programa debe mostrar:
+#- El promedio de horas semanales que invierten los encuestados en
+#ver televisión.
+#- La cantidad de personas interesadas en cada canal: deportivo,
+#cultural, de noticias o de películas.
+#- La cantidad de personas que están dispuestas a pagar más de 50
+#mil pesos por el servicio.
+#- El promedio de edades de los encuestados.
 
 
 # Cantidad de personas
