@@ -1,3 +1,8 @@
+# Sistema control
+#MARIA FERNANDA TOLOSA ANGEL
+#FUNDAMENTOS DE PROGRAMACION
+#CODIGO FUENTE: AUTORIA PROPIA
+
 # Cantidad de personas
 personas = 10
 
