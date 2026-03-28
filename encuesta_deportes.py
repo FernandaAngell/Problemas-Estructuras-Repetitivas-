@@ -3,24 +3,21 @@
 #FUNDAMENTOS DE PROGRAMACION
 #CODIGO FUENTE: AUTORIA PROPIA
 
-#Un nuevo operador de televisión por cable desea ofrecer
-#nuevos servicios en su ciudad. Para esto, se requiere saber en una
-#muestra de 50 personas:
-#- Cuántas horas a la semana invierten en ver televisión.
-#- Qué tipo de canal prefieren ver: deportivo, cultural, de noticias o
-#de películas.
-#- Cuántas personas están dispuestas a pagar más de 50 mil pesos
-#por el servicio de televisión.
-#- La edad de la persona
+#Una nueva tienda deportiva desea saber qué productos
+#ofrecer para los hinchas de los equipos de fútbol colombianos. Para esto,
+#se quiere preguntar a 10 fanáticos del futbol:
+#- Cuál es su equipo favorito.
+#- Qué tipo de articulo deportivo prefiere entre camiseta, chaqueta,
+#gorra o morral con el logo de su equipo favorito.
+#- Edad del fanático del fútbol.
+#- Cantidad de días al año en los cuales asisten al estadio a partidos
+#de su equipo favorito.
 #El programa debe mostrar:
-#- El promedio de horas semanales que invierten los encuestados en
-#ver televisión.
-#- La cantidad de personas interesadas en cada canal: deportivo,
-#cultural, de noticias o de películas.
-#- La cantidad de personas que están dispuestas a pagar más de 50
-#mil pesos por el servicio.
-#- El promedio de edades de los encuestados.
-
+#- Cantidad de fanáticos por equipo de fútbol
+#- Promedio de edades de los hinchas por cada equipo de fútbol.
+#- El tipo de articulo deportivo preferido por los hinchas
+#- Promedio de días al año en los cuales los hinchas asisten al
+#estadio
 
 # Cantidad de personas
 personas = 10
