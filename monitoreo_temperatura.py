@@ -3,6 +3,20 @@
 #Porgrama: Fundamentos de programación
 #Código Fuente: Autoría propia
 
+#En un proceso industrial, un horno debe mantener su
+#temperatura dentro de un rango operativo entre 180 grados Celsius y
+#200 grados Celsius. El sistema debe monitorear continuamente la
+#temperatura y emitir una alerta si se sale del rango.
+#El sistema debe monitorear continuamente la temperatura del horno. En
+#cada iteración:
+#Solicite una temperatura entera positiva en °C (valide).
+#Si temperatura > 200 → “Alerta: enfriamiento”.
+#Si temperatura < 180 → “Alerta: calentamiento”.
+#En caso contrario → “Temperatura óptima”.
+#Pregunte “¿Desea continuar? (1: sí, 0: no)”. Si el usuario ingresa 0,
+#termina el monitoreo.
+
+
 def solicitar_temperatura():
     while True:
         try:
@@ -51,3 +65,6 @@ def main():
 # Ejecutar programa
 if __name__ == "__main__":
     main()
+
+
+#Realizado por Maria Fernanda Tolosa Angel
