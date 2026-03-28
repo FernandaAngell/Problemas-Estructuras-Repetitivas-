@@ -3,6 +3,24 @@
 #FUNDAMENTOS DE PROGRAMACION
 #CODIGO FUENTE: AUTORIA PROPIA
 
+#Un nuevo operador de televisión por cable desea ofrecer
+#nuevos servicios en su ciudad. Para esto, se requiere saber en una
+#muestra de 50 personas:
+#- Cuántas horas a la semana invierten en ver televisión.
+#- Qué tipo de canal prefieren ver: deportivo, cultural, de noticias o
+#de películas.
+#- Cuántas personas están dispuestas a pagar más de 50 mil pesos
+#por el servicio de televisión.
+#- La edad de la persona
+#El programa debe mostrar:
+#- El promedio de horas semanales que invierten los encuestados en
+#ver televisión.
+#- La cantidad de personas interesadas en cada canal: deportivo,
+#cultural, de noticias o de películas.
+#- La cantidad de personas que están dispuestas a pagar más de 50
+#mil pesos por el servicio.
+#- El promedio de edades de los encuestados.
+
 # Variables acumuladoras
 total_horas = 0
 total_edades = 0
@@ -68,3 +86,5 @@ print(f"Noticias: {noticias}")
 print(f"Películas: {peliculas}")
 
 print(f"\nPersonas que pagarían más de $50.000: {pagan_mas}")
+
+#Realizado por Maria Fernanda Tolosa Angel
