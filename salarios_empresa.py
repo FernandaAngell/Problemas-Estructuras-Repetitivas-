@@ -3,6 +3,26 @@
 #FUNDAMENTOS DE PROGRAMACION
 #CODIGO FUENTE: AUTORIA PROPIA
 
+#Le han pedido elaborar un programa para calcular el
+#promedio y suma total de salarios que paga un empresario
+#mensualmente en su microempresa, con el fin de calcular un incremento
+#anual.
+#Entrada por trabajador (10): salario, antiguedad_años, y edad para
+#poder calcular “promedio de edades”.
+#Clasificación por grupos:
+#- A: 0–2 años.
+#- B: >2–8 años.
+#- C: >8 años.
+#Incremento según promedio salarial del grupo:
+#- A: promedio > 2,000,000 → 4%; si no, 7%.
+#- B: promedio > 2,400,000 → 5%; si no, 8%.
+#- C: promedio > 3,000,000 → 6%; si no, 10%.
+#Salidas por grupo:
+#- Promedio de salarios.
+#- Suma total de salarios.
+#- Porcentaje de incremento a aplicar al grupo (no individual).
+#- Promedio de edades (si recogemos edad).
+
 # Cantidad de trabajadores
 trabajadores = 10
 
@@ -87,3 +107,5 @@ print(f"Promedio salarios: ${prom_C:.2f}")
 print(f"Suma total: ${total_C}")
 print(f"Incremento: {inc_C * 100}%")
 print(f"Promedio edades: {edad_prom_C:.2f}")
+
+#Realizado por Maria Fernanda Tolosa Angel
