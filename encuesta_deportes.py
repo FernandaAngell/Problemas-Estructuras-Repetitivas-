@@ -3,6 +3,17 @@
 #FUNDAMENTOS DE PROGRAMACION
 #CODIGO FUENTE: AUTORIA PROPIA
 
+#Un nuevo operador de televisión por cable desea ofrecer
+#nuevos servicios en su ciudad. Para esto, se requiere saber en una
+#muestra de 50 personas:
+#- Cuántas horas a la semana invierten en ver televisión.
+#- Qué tipo de canal prefieren ver: deportivo, cultural, de noticias o
+#de películas.
+#- Cuántas personas están dispuestas a pagar más de 50 mil pesos
+#por el servicio de televisión.
+#- La edad de la persona
+
+
 # Cantidad de personas
 personas = 10
 
@@ -71,3 +82,5 @@ for e in equipos:
 articulo_preferido = max(articulos, key=articulos.get)
 
 print(f"\nArtículo más preferido: {articulo_preferido}")
+
+#Realizado por Maria Fernanda Tolosa Angel
