@@ -3,16 +3,16 @@
 #FUNDAMENTOS DE PROGRAMACION
 #CODIGO FUENTE: AUTORIA PROPIA
 
-
 # Variables acumuladoras
 total_horas = 0
+total_edades = 0
 deportivo = 0
 cultural = 0
 noticias = 0
 peliculas = 0
 pagan_mas = 0
 
-# Número de personas (muestra fija)
+# Número de personas
 personas = 50
 
 # Ciclo
@@ -41,23 +41,30 @@ for i in range(1, personas + 1):
     elif canal == "4":
         peliculas += 1
     else:
-        print("Opción inválida")
+        print("Opción inválida ❌")
 
     # Pago
     pago = input("¿Pagaría más de $50.000? (si/no): ").lower()
     if pago == "si":
         pagan_mas += 1
 
-    # Edad (solo se pide, no se usa en cálculos)
+    # Edad
     edad = int(input("Edad: "))
+    total_edades += edad
+
+# Cálculos finales
+promedio_horas = total_horas / personas
+promedio_edades = total_edades / personas
 
 # Resultados
 print("\n=== RESULTADOS DE LA ENCUESTA ===")
-print(f"Total de horas semanales: {total_horas}")
-print(f"Personas que pagarían más de $50.000: {pagan_mas}")
+print(f"Promedio de horas semanales: {promedio_horas:.2f}")
+print(f"Promedio de edades: {promedio_edades:.2f}")
 
-print("\nPreferencias de canal:")
+print("\nPersonas por tipo de canal:")
 print(f"Deportivo: {deportivo}")
 print(f"Cultural: {cultural}")
 print(f"Noticias: {noticias}")
 print(f"Películas: {peliculas}")
+
+print(f"\nPersonas que pagarían más de $50.000: {pagan_mas}")
