@@ -56,7 +56,7 @@ Fortalecer el uso de estructuras repetitivas para resolver problemas que requier
 
 ## 👩‍💻 Autor
 
-** Maria Fernanda Tolosa Angel**
+**Maria Fernanda Tolosa Angel**
 
 ---
 
